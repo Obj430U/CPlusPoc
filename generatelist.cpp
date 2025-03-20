@@ -1,8 +1,6 @@
 #include "generate_list.h"
 #include <cstdlib>
 #include <ctime>
-
-// Function definition
 std::vector<int> generateList(int size, int minVal, int maxVal) {
     std::vector<int> list;
     list.reserve(size);
